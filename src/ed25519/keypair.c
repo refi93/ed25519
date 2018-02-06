@@ -10,7 +10,7 @@ int crypto_sign_keypair(unsigned char *pk, unsigned char *sk)
 
   SHA512(sk, 32, h);
   h[0] &= 248;
-  h[31] &= 63;
+  h[31] &= 127;
   h[31] |= 64;
 
   ge_scalarmult_base(&A,h);

@@ -1,5 +1,5 @@
 {
-  "name": "ed25519",
+  "name": "ed25519aaa",
   "version": "0.0.4",
   "description": "An Ed25519 implementation for node.js",
   "dependencies": {
